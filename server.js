@@ -2,7 +2,6 @@ const express = require('express');
 const { sequelize } = require('./models');
 const webhookRoutes = require('./routes/webhookRoutes');
 
-// Initialize Express app
 const app = express();
 app.use(express.json());
 
