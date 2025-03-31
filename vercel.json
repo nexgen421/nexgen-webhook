@@ -14,9 +14,7 @@
     ],
     "functions": {
         "pg": {
-            "includeFiles": [
-                "node_modules/pg/**/*"
-            ]
+            "includeFiles": "node_modules/pg/**/*"
         }
     }
 }
