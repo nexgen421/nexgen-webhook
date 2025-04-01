@@ -3,7 +3,7 @@ module.exports = (sequelize, DataTypes) => {
         awbNumber: {
             type: DataTypes.STRING,
             allowNull: false,
-            unique: true,
+            unique: false,
         },
         orderId: DataTypes.STRING,
         phone: DataTypes.STRING,
